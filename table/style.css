@@ -1,0 +1,39 @@
+/* Add your CSS Below */
+table {
+  width: px;
+  overflow: hidden;
+  border-collapse: collapse;
+  border-radius: 10px 10px 0 0;
+}
+
+th {
+  padding: 10px;
+  background: green;
+  color: white;
+  overflow: hidden;
+}
+tr:nth-of-type(even) {
+  background: rgba(163, 163, 163, 0.342);
+}
+td {
+  padding: 10px;
+  border-bottom: 1px solid rgb(190, 190, 190);
+}
+th:nth-child(1) {
+  width: 50px;
+  text-align: right;
+}
+td {
+  width: 50px;
+  text-align: right;
+}
+td:nth-child(2) {
+  text-align: left;
+  width: 200px;
+}
+th:nth-child(2) {
+  text-align: left;
+}
+th:nth-child(3) {
+  text-align: right;
+}
